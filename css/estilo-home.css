@@ -1,0 +1,451 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s ease;
+}
+p{
+    font-family: 'Open Sans','Georgia','Sans-serif';
+    font-size: 0.875em;
+    line-height: 1.8;  
+}
+li{
+    list-style: none;
+}
+
+:root{
+    --color-padrao:#009871;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;    
+    height: 500px;     
+    }    
+    header .faixa-menu{
+        background-color:rgba(38, 30, 23, 0.9);              
+        width: 100%;        
+        }
+        header .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            justify-content: center;                              
+            }
+            header .container .menu-top{                
+                width:100%;
+                height: 80px;    
+                max-height:80px;
+                margin: 0px;
+               
+                }
+                header .container .menu-top .menu{
+                    display: flex;                   
+                    width: 100%;                 
+                    flex-direction: row;
+                    justify-content: flex-end;                                      
+                    padding-bottom: 8%;                                  
+                    height: 100%;    
+                    max-height:100% ;                
+                    }                    
+                    .menu-top .menu li{         
+                        color: white;
+                        text-transform: uppercase;
+                        font-size: 0.875em;   
+                        font-weight: bold;                     
+                        display: inline-block; 
+                        text-align: right;                         
+                        position: relative;  
+                        margin-top: 7%;                                          
+                        height: 50px;
+                        max-height: 50px;                                              
+                        } 
+                        .menu-top .menu li:hover a:before{ 
+                            content: '';
+                            width: 0%;
+                            height: 3px;
+                            position: absolute;
+                            background-color: #009871;
+                            display:block;
+                            right: 0;
+                            bottom: -100%;
+                            margin-top: 13px;
+                            animation: anim-menu-hover 1s ease backwards alternate;
+                            }                                               
+                            .menu-top .menu li a:hover{         
+                                color: var(--color-padrao);                                                                                                                                    
+                                }                    
+                                .menu-top .menu li:nth-child(1){                        
+                                    width: 25%;                                                                                 
+                                    }
+                                    .menu-top .menu li:nth-child(2){                        
+                                        width: 12%;                                                                                 
+                                        }
+                                        .menu-top .menu li:nth-child(3){                        
+                                            width: 20%;                                                                                 
+                                            }
+                                            .menu-top .menu li:nth-child(4){                        
+                                                width: 15%;                                                                                 
+                                                }                                                       
+                                                .menu-top .menu li>a{                        
+                                                    margin-left: -10%; 
+                                                    text-decoration: none; 
+                                                    position: relative; 
+                                                    color: white;                                                                                   
+                                                    }                                            
+                                                    .menu-top .menu li:hover li::before{
+                                                        content: '';
+                                                        width: 100%;
+                                                        height: 3px;
+                                                        background-color: var(--color-padrao);
+                                                        display: block;
+                                                        position: absolute;
+                                                        right: 0px;
+                                                        bottom: 100%px;                                                                                              
+                                                        }
+                                        
+            
+header .container .logo{            
+    background-image: url('../fotos/logo-marca-sm.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+    margin-top: 5px;
+    margin-bottom:3px ;
+    height: 88px;           
+    }
+    header nav .logo:hover{            
+        transform:scale(1.1) 
+        }
+        header .logo span{                
+            opacity: 0;
+            }
+main .h4 {        
+    padding: 10% 0% 5% 0%;       
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    align-items: center;                
+    font-size: 4vw;
+    font-family: 'Salsa';
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#009871;
+    position: relative; 
+    margin-top: 10%;   
+    } 
+    main .title_main .h4::before{
+        margin: 0 auto 3% auto;
+        content:'';
+        display: block;
+        width: 10%;
+        height: 2px;
+        background-color:#009871;
+        position: absolute;
+        bottom: 0px;
+        right: 70%;            
+        } 
+ .sobre{/*ESTILOS SOBRE*/
+    display: flex;
+    height: 1000px;
+    max-height: 1000px;   
+    width: 100%;
+    }
+    .sobre .container .content-perfil{  /*ESTILOS PERFIL"CAATINGAS"*/    
+       display: flex;       
+       flex-direction: column;       
+       align-items: center;
+       max-height: 600px;      
+       }
+        .sobre .content-perfil .text-sobre{
+            display: flex;
+            margin: 25px auto;
+            flex: 1 1 360px;
+            text-align: justify;         
+            font-weight: 500;                                         
+            }            
+            .content-perfil .h4::before{
+                margin-right: 10px;
+                content: '';
+                display: block;
+                width: 5px;
+                height: 45px;
+                background-color: var(--color-padrao);
+                }
+                .sobre .content-perfil .content-circle{/*ESTILOS CONTEUDO CIRCULOS*/ 
+                    display: flex;
+                    flex-direction: column;                   
+                    flex: 1 1 260px;              
+                    justify-content: space-around;              
+                    align-items: center;                  
+                    position: relative;                                             
+                    }                    
+                    .content-perfil .content-circle .h5{
+                        display: flex;      
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center; 
+                        margin-bottom: 40px;                                               
+                        font-family: 'Salsa','sans-serif';
+                        color: #434744;                                              
+                        }
+                        .content-perfil  .content-circle .h5::before{
+                            margin-right: 10px;
+                            content: ' ';
+                            display: block;
+                            width: 5px;
+                            height: 25px;
+                            background-color: var(--color-padrao);
+                            }
+                            .sobre .content-circle .box-circle{       
+                                display: flex;                                                                                                                    
+                                }
+                                .sobre .content-circle .data-circle{   
+                                    display: flex;
+                                    align-items: center;                     
+                                    flex-direction: column;                                           
+                                    margin-right: 10px;                                     
+                                    }  
+                                    .content-circle .data-circle span{  
+                                        color: rgba(94, 94, 97, 0.549);
+                                        }                            
+                                        .sobre  .data-circle .rounded-circle{                           
+                                            width: 90px;
+                                            height: 90px;
+                                            border-radius: 50%;                                                
+                                            border: 3px solid var(--color-padrao);
+                                            }
+                                            .sobre  .data-circle .rounded-circle:hover{
+                                                transform: scale(1.1);
+                                                }
+                                                .data-circle a{
+                                                    color: rgba(61,71,68, 85%);
+                                                    }
+                                                    .data-circle a:hover{
+                                                        color: var(--color-padrao);
+                                                        }
+                                                        .data-circle  .gabriel{                           
+                                                            background-image: url('../fotos/gabriel.svg');
+                                                            background-position: center center;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            }
+                                                            .data-circle  .akamaru{                           
+                                                                background-image: url('../fotos/akamaru.svg');
+                                                                background-position: center center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover;
+                                                                }
+                                                                .data-circle  .jesse{                           
+                                                                    background-image: url('../fotos/Jesse.jpg');
+                                                                    background-repeat: no-repeat;
+                                                                    background-position: center center;
+                                                                    background-size: cover;
+                                                                 }
+     
+                    
+.faixa-2{
+    display: flex;
+    height: 400px;
+    max-height: 400px;
+    max-height: 400px; 
+    width: 100%;
+    background-image: url('../fotos/faixa2.jpg');background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border-top: 3px solid var(--color-padrao);
+    background-attachment: fixed; 
+    position: relative;      
+    }
+    .faixa-2 h3{
+        display: flex;
+        flex-direction: column;                
+        font-size: 8vw;
+        font-family: 'Salsa';
+        font-weight: bold;
+        color: whitesmoke;
+        opacity: 0.9;        
+        position: absolute;         
+        bottom: -10%;      
+        }
+ 
+.faixa-3{
+    display: flex;
+    height: 400px; 
+    max-height: 400px;
+    width: 100%;    
+    background-image: url('../fotos/Foto-Milagres.jpg');background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border-top: 3px solid #009871;
+    background-attachment: fixed;  
+    position: relative; 
+    }
+    .faixa-3 h3{
+        display: flex;
+        flex-direction: column;                
+        font-size: 8vw;
+        font-family: 'Salsa';
+        font-weight: bold;
+        color: whitesmoke;
+        opacity: 0.9;        
+        position: absolute;         
+        bottom: -10%;        
+        } 
+        .milagres{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;            
+            }
+            .milagres .h4{
+                padding: 5% 0% 5% 0%;       
+                display: flex;
+                flex-wrap: wrap;
+                text-align: right;
+                align-items: center;                
+                font-size: 4vw;
+                font-family: 'Salsa','sans-serif';
+                font-weight: bold;
+                text-transform: capitalize;
+                color:#009871;
+                }
+                .milagres .container_milagres{  
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;               
+                    }
+                    .milagres .h4::before{
+                        margin: 0 auto 8% auto;
+                        content: '';
+                        display: block;
+                        width: 15%;
+                        height: 2px;
+                        background-color: #009871;
+                        position: absolute;
+                        bottom: 0px;
+                        right: 50%;
+                        } 
+                        .milagres .text-milagres{
+                            text-align: justify;                                                    
+                            width: 65%;
+                            font-weight: 500; 
+                            }
+                            .milagres .img_milagres{                                
+                                width: 32%;
+                                height: 95%;                                
+                                box-sizing: border-box;
+                                background-image: url('../fotos/Foto-Milagres.jpg');
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                background-size: cover;
+                                border-radius: 5px;
+                                box-shadow:0 0 5px gray, 0 0 5px black;
+                                animation: section-milagres 30s linear infinite alternate;                                              
+                                }
+                                .milagres .content-btn-view-more{                                    
+                                    margin: 5% auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 80%;
+                                    }
+                                    .milagres .content-btn-view-more .btn{
+                                        text-transform: uppercase;
+                                        font-weight: bold;
+                                        letter-spacing: 3px;
+                                        font-family: 'Open-Sans','Salsa'; 
+                                        width: 100%;
+                                        background-color:#009871;
+                                        box-shadow:0 0 5px gray, 0 0 5px black;
+                                        }
+                                        .milagres .content-btn-view-more .btn:hover{
+                                            background-color: #0e644f;
+                                            }
+                                                      
+footer{  /*ESTILOS FOOTER-RODAPÉ-*/   
+    width: 100%; 
+    background-color: #261E17;
+    color: whitesmoke;
+    
+    }
+    footer .container{        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }       
+        footer .img-ilustra{                                                
+            display: flex;
+            width: 30%;
+            height: 30%;
+            }
+footer .dados-extras{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 5px;;
+    }
+    .dados-extras .socias a,i{
+        color: gray ;
+        font-size: 1.3em;
+        } 
+        .dados-extras .socias a,i:hover{
+          color:#009871; 
+          transition: all 0.3s ease;           
+          } 
+            footer .dados-extras a{        
+                margin-left: 5px;
+                font-size: 0.875em;
+                font-family: 'Salsa','Georgia','sans-serif';
+                color:#009871 ;
+                }
+                footer .dados-extras a:hover{                    
+                    color:gray ;
+                    transition: all 0.3s ease;
+                    }
+
+footer .container .logo-bottom{
+    background-image: url('../fotos/logo-marca-sm.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;    
+    width: 100px;
+    height: 30px;    
+    margin-top: -10px;
+     } 
+     footer .bottom-info{
+          display: flex;
+          align-items: center;
+          height: 40px;     
+          }                                                  
+            footer .bottom-info a{
+                display: flex;
+                color: #009871;       
+                }
+                footer .bottom-info a:hover{                    
+                    color:gray ;
+                    transition: all 0.3s ease;
+                    }           
+                    footer .bottom-info span{               
+                        display: flex;
+                        font-family: 'Salsa','Salsa','Georgia';
+                        font-size: 0.875em;                
+                        }
+                        footer .bottom-info span:last-child{
+                            margin-left: -50px;                  
+                            }
+                  
+ /* Efects */
+ @keyframes section-milagres{  
+    40% {background-image: url('../fotos/Mlagres-02.jpg');} 
+    70% {background-image: url('../fotos/Milagres-04.jpg');}  
+    100% {background-image: url('../fotos/Milagres-05.jpg');}     
+ }  
+ @keyframes anim-menu-hover{
+    10% {width:5%}                                
+    100% {width:100%}
+    }                                  

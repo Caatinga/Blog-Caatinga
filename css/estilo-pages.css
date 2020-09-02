@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+:root{
+    --color-padrao:#009871;
+}
+
+    .page-milagres .h4{
+        padding: 5% 0% 5% 0%;
+        color: var(--color-padrao);        
+        text-transform: capitalize; 
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+        align-items: center;                
+        font-size: 3vw;
+        font-family: 'Salsa', 'cursive';;  
+        font-weight: bold;       
+        }        
+        .page-milagres .text-milagres .title_main .h4::before{           
+            content: '';
+            display: block;
+            width: 5%;            
+            background-color:var(--color-padrao);
+            right: 85%;
+            }
+            .page-milagres .content-milagres{
+                display: flex;
+                flex-direction: column;               
+                height: 1500px;
+                max-height: 1500px;                
+                }
+                .page-milagres .content-milagres .text-milagres{
+                    text-align: justify;
+                    line-height: 2px;                   
+                    height: 650px;
+                    max-height: 650px;                                     
+                    }
+                    .page-milagres .content-milagres .text-milagres .lead{                        
+                        line-height: normal;                        
+                        }
+                        .page-milagres .content-milagres .img-milagres{ 
+                            background-image: url('../fotos/Foto-Milagres.jpg');
+                            background-position: center center;
+                            background-size: cover;
+                            background-repeat: no-repeat;                                                       
+                            height: 500px;
+                            max-height: 500px;
+                            width: 95%;
+                            max-width:95%;
+                            margin-top: 3%;  
+                            box-shadow:0 0 5px black, 0 0 5px black;
+                            animation: section-milagres 30s linear infinite alternate;                                                                                                                                                                                                            
+                            }
+/*POSTS PAGE PRINCIPAL*/
+main .content_post_principal{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;    
+    margin:10% auto;
+    width: 100%;
+    max-width:100%;
+    height: 1200px;
+    max-height: 1200px;      
+    }
+    main .content_post_principal .content_posts{            
+        display: flex;
+        flex-direction: column;
+        width:30%;         
+        margin-right: 10px;
+        margin-bottom: 10px;
+        position: relative;       
+        height: 550px;
+        max-height: 550px;        
+        }
+        main .content_post_principal .content_posts::before{            
+            content: " ";
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: rgb(190, 190, 190);
+            position: absolute;
+            bottom: 0px;
+            border-radius: 5px;
+            }
+            main .content_post_principal .content_posts:hover::before{          
+                 background-color: var(--color-padrao);                    
+                }
+                .content_post_principal .content_posts .indice_post{             
+                    background-color:#FAFAFA;
+                    padding: 5%;
+                    display: flex;
+                    justify-content: space-between;  
+                    border-radius: 5px 5px 0px 0px;             
+                    }
+                    .content_post_principal .content_posts .body-post h1>a{
+                        display: block;
+                        color:#009871;
+                        font-family: "Salsa";
+                        }
+                        .content_post_principal .content_posts:hover .indice_post{             
+                            background-color: var(--color-padrao);                                
+                            }
+                            .content_post_principal .content_posts .category i{             
+                                margin-right: 5px;
+                                font-size: 0.765em;                                
+                                }
+                                .content_post_principal .content_posts:hover .category>a{             
+                                    color: white;                                                                
+                                    }
+                                    .content_post_principal .content_posts:hover .category i{             
+                                        color: white;                                
+                                        }
+                                        .content_post_principal .content_posts:hover .data{
+                                            color: white;
+                                            }
+                                            .content_posts .indice_post .category >a{             
+                                                color: #434744;
+                                                font-style: italic;
+                                                text-transform: capitalize;                        
+                                                }
+                                                .content_posts .indice_post .category,.data{             
+                                                    color: #434744;  
+                                                    font-size: 0.875em; 
+                                                    font-style: italic;          
+                                                    }
+                                                    .content_posts .content-img-post{                                                    
+                                                        height: 250px;
+                                                        max-height: 250px;
+                                                        width: 100%;
+                                                        max-width: 100%;
+                                                        position: relative;                                                        
+                                                        }
+                                                        .content_posts .content-img-post img{
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            object-fit: cover;
+                                                            box-sizing: border-box;                                                            
+                                                            }                                                            
+                                                            .content_post_principal .body-post .text-excerpt{
+                                                                color: black;
+                                                                font-size: 0.438em;
+                                                                text-align: justify;                                                                
+                                                                }
+                                                                .content_post_principal.col-md-12 .body-post > p{
+                                                                    text-align: justify; 
+                                                                    width: 95%;             
+                                                                    }
+
+/*BODY POST PAGE BLOG*/
+.body_page_blog{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    .body_page_blog .post-container{
+        margin-top: 10%;                       
+        }
+        .body_page_blog .post-container article:hover a{
+            color: var(--color-padrao);                      
+            }
+            .body_page_blog .text-post-inline h1 a{
+                display: block;
+                font-family: "Salsa";
+                color: var(--color-padrao);
+                }                     
+                .content_post_principal .body-post .the_author span{                   
+                    font-size: 0.800em;
+                    font-style: italic; 
+                    color: var(--color-padrao); 
+                    text-transform: capitalize;                                 
+                    }       
+                    .content_post_principal .body-post .the_author>small{
+                        color:#434744 ;
+                        text-transform: uppercase;
+                        font-size: 0.600em;
+                        }
+                        .content_post_principal .body-post .the_author i{
+                            color:#434744;                                                           
+                            }
+                            .text-post-inline i{
+                                font-size: 0.800em;
+                                margin-left: 2%;                            
+                                }            
+   
+/*ASIDE*/
+.body_page_blog aside{
+    margin-top: 10%;
+    background-color: rgb(241, 238, 238);
+    border-radius: 5px;               
+    }
+    aside > div > h2{
+        color: var(--color-padrao);
+        text-decoration: none;        
+        font-size: 1.2em;
+        margin-top: 5%; 
+        display: block;                   
+        } 
+/*WIDGETS*/
+aside .widget-wrapper{    
+    margin-bottom: 15%;
+    border-bottom: 5px solid var(--color-padrao);
+    }
+    aside .widget-wrapper:nth-child(1){ 
+        border-bottom: none;
+        }        
+        .widget-wrapper ul li{ 
+            display: flex;
+            flex-direction: row;            
+            align-items: center;           
+            justify-content: space-between;            
+            margin-bottom: 3%;                       
+            }
+            .widget-wrapper ul li::before{ 
+                content: '';
+                display: block;
+                width: 8px;
+                height: 8px;
+                background-color: var(--color-padrao); 
+                border-radius: 50%;                
+                }
+                .widget-wrapper ul li a{ 
+                    margin-left: 5%;
+                    color: black;              
+                    width: 70%;
+                    display: block;
+                    line-height: 1em;
+                    }
+                    .widget-wrapper ul li a:hover{ 
+                        color: var(--color-padrao);           
+                        }
+                        .widget-wrapper ul li span{ 
+                            color: gray;
+                            margin-left: 5%;                       
+                            width: 30%; 
+                            word-wrap: normal;
+                            font-size: 0.600em;          
+                            }                       
+/*PESQUISAR PAGE BLOG*/              
+.searchform > div{        
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative; 
+    box-sizing: border-box;                                       
+    } 
+    .searchform > div > input.input-search{
+        width: 90%;
+        position: absolute;
+        left: 0px; 
+        margin-top: 5%;
+        padding: 2%; 
+        border-radius: 5px;
+        outline: none; 
+        border: none;                                             
+        }
+        .searchform > div > input[type='text']{
+            font-family: 'Salsa','sans-serif';                                                                         
+            }
+            .searchform > div > input[type='text']:hover{
+                border: none;
+                outline: none;                                             
+                }
+                .searchform > div > input.btn-search{                            
+                    position: absolute;
+                    right: 0px;
+                    margin-top: 5%;
+                    padding: 2.7%; 
+                    border-radius: 0px 5px 5px 0px;
+                    outline: none; 
+                    border: none; 
+                    box-sizing: border-box;                                         
+                    }
+                    .searchform > div > input.btn-search:hover{                            
+                        background-color: hsl(132, 54%, 42%);
+                        color: white; 
+                        border-radius: 0px 5px 5px 0px;                      
+                        }
+                        .searchform > div > input[type='submit']{                            
+                            color: white;
+                            font-family: 'Salsa','sans-serif';
+                            font-weight: bold;
+                            background-color: var(--color-padrao);
+                            font-size: small;
+                            }                                            
+/*POST BLOG*/          
+
+
+.body_page_blog .post-container article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-bottom: 5%;
+    align-items: center;
+    padding: 2%;                                    
+    }     
+    .body_page_blog .post-container article:hover{
+        background-color: rgb(243, 243, 243);
+        border-radius: 5px;        
+        }
+        .body_page_blog .post-container article:hover i,a{
+            color:var(--color-padrao);
+            }           
+            .post-container article .text-post-inline{                
+                box-sizing: border-box;                            
+                } 
+                .post-container .text-post-inline p{                
+                    color:gray;               
+                    }               
+                    .text-post-inline .text-footer-post span{                
+                        color: var(--color-padrao); 
+                        text-transform:capitalize;               
+                        }
+                        .text-post-inline .text-footer-post small{                
+                            color: gray;               
+                            }
+                            .post-container article .content-img-page-post{
+                                height: 200px;
+                                max-height: 500px;                                      
+                                }
+                                .content-img-page-post img{
+                                    width: 100%;
+                                    height: 200px;                                  
+                                    border-radius:5px                    
+                                    }
+.content-posts-single{
+    margin-top: 5% auto;    
+    }
+    .content-posts-single p{
+        text-align: justify;
+        }
+        .content-posts-single h1{
+            font-size: 1.8em;
+            margin-top: 20%;
+            font-family: "Salsa";
+            color:var(--color-padrao)
+            } 
+            .content-posts-single h1,h2,h3,h4,h5{                
+                font-family: "Salsa";
+                color:var(--color-padrao);
+                }       
+                .content-posts-single .perfil-post-single{       
+                    display: flex;
+                    align-items: center; 
+                    }
+                    .perfil-post-single .gravatar-author{
+                        padding-top: 5%;
+                        }
+                        .perfil-post-single .gravatar-author img{
+                            border: 3px solid var(--color-padrao);                    
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;                
+                            }
+                            /*Div textos Author*/
+                            body > main > div > article > div > div > div > div {                        
+                                display: flex;
+                                flex-direction: column;  
+                                padding-top: 5%;   
+                                margin-left: 2%;                
+                                }
+                                /*Nome do Author no Post*/
+                                article > div > div > div > div > p.author-name{
+                                    color: var(--color-padrao);
+                                    font-family: 'Salsa','sans-serif';                                                             
+                                    margin-bottom: 0px;
+                                    text-transform: capitalize;                         
+                                    }
+                                    /*Data Postagem*/
+                                    article > div > div > div > div > p{
+                                        color: rgba (0, 0, 0, 0,54);  
+                                        font-size: 0.700em;                                                                                 
+                                        }  
+.content-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    font-weight: bold;
+    margin:5% auto;   
+    }                               
+    .icons-pagination{    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5% 5% 10% 5%;
+        }
+        .icons-pagination .text-right,.text-left{    
+            font-weight: bold;
+            }
+ 
+    main .paisagens .h4{
+        margin-top: 15%;
+        }          
+
+
+
+  
+
+                
+
+                                       
+
