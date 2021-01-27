@@ -33,11 +33,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-## 🗂 Como baixar e usar o projeto
+### 🗂 Como baixar e usar o projeto
 
 # 📋 Pré-requisitos
 
-- [Ambiente de Desenvovlimeno que Interprete o PHP(Nesse projeto foi o XAMPP)](https://www.apachefriends.org/download.html)
+- [Ambiente de Desenvovlimeno que Interprete o PHP - "Nesse projeto foi o XAMPP"] (https://www.apachefriends.org/download.html)
 - [Base De Dados] (https://drive.google.com/file/d/1Dx67MSc60ycNSXdOzUuJ7QRiwmUB8cii/view?usp=sharing)
 
 # 🔧 Instalação
@@ -51,7 +51,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     - [Instalação e Configuração](https://www.hostinger.com.br/tutoriais/como-usar-o-xampp/)
       
     # Como fazer o backup da Base de Dados
-    > Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser
+      Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser
     # http://localhost/phpmyadmin 
 
     # Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo. 
