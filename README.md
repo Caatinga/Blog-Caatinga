@@ -3,7 +3,7 @@
 </h1>
 
 <h1>
-    <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif">
+    <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga-2_z89pfXpZJ.gif">
 </h1>
 
 <h3 align="center">
@@ -35,12 +35,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ### 🗂 Como baixar e usar o projeto
 
-# 📋 Pré-requisitos
+<h4>📋 Pré-requisitos</h4>
 
 - [Ambiente de Desenvovlimeno que Interprete o PHP - "Nesse projeto foi o XAMPP"] (https://www.apachefriends.org/download.html)
 - [Base De Dados] (https://drive.google.com/file/d/1Dx67MSc60ycNSXdOzUuJ7QRiwmUB8cii/view?usp=sharing)
 
-# 🔧 Instalação
+<h4> 🔧 Instalação</h4>
 
 ```bash
 
