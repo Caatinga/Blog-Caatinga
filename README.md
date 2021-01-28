@@ -6,9 +6,6 @@
     <img src="https://ik.imagekit.io/n07nbjzer4n/Myia0ICDKf_14rPjJyg7.gif">
 </h1>
 
-#### View Fast
-![site](https://ik.imagekit.io/n07nbjzer4n/Myia0ICDKf_14rPjJyg7.gif)
-
 <h3 align="center">
     <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
 </h3>
