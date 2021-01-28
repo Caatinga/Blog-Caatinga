@@ -5,8 +5,9 @@
 <h1>
     <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif">
 </h1>
-![Site](https://github.com/GabrielSantosBa/SiteAquecendoVidas/blob/master/AqucendoVidas-novo.gif)
-* [site](https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
+
+#### View Fast
+![site](https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
 
 <h3 align="center">
     <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
