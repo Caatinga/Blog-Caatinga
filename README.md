@@ -6,6 +6,8 @@
     <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif">
 </h1>
 
+* [site] (https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
+
 <h3 align="center">
     <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
 </h3>
@@ -35,29 +37,30 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## 🗂 Como baixar e usar o projeto
 
-# 📋 Pré-requisitos
+### 📋 Pré-requisitos
 
 * [Ambiente de Desenvovlimeno que Interprete o PHP(Nesse projeto foi o XAMPP)] (https://www.apachefriends.org/download.html)
 * [Base De Dados] (https://drive.google.com/file/d/1Dx67MSc60ycNSXdOzUuJ7QRiwmUB8cii/view?usp=sharing)
 
-# 🔧 Instalação
+### 🔧 Instalação
 
 ```bash
 
     # Clonar o repositório
     $ git clone https://github.com/GabrielSantosBa/Site-NaCaatinga.git
-   
+    
+```
     # Como Instalar e adicionar o Projeto ao XAMPP
     * [Instalação e Configuração](https://www.hostinger.com.br/tutoriais/como-usar-o-xampp/)
       
     # Como fazer o backup da Base de Dados
-    > Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser
+    ## Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser
     * http://localhost/phpmyadmin 
 
     # Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo. 
     * [Exemplo](https://ik.imagekit.io/n07nbjzer4n/php-myadmin_wIHbnjVYJ.png)
 
-```
+
 
 ---
 
