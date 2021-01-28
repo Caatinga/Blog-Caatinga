@@ -6,7 +6,7 @@
     <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif">
 </h1>
 
-* [site] (https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
+* [site](https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
 
 <h3 align="center">
     <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
@@ -48,8 +48,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     # Clonar o repositório
     $ git clone https://github.com/GabrielSantosBa/Site-NaCaatinga.git    
 ```
-
-### Como Instalar e adicionar o Projeto ao XAMPP
+### 🤔 Como Instalar e adicionar o Projeto ao XAMPP
 
 * [Instalação e Configuração] (https://www.hostinger.com.br/tutoriais/como-usar-o-xampp/)
  
