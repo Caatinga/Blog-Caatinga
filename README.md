@@ -7,7 +7,7 @@
 </h1>
 
 <h3 align="center">
-    <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
+    <a href="https://nacaatinga.com.br/">Acessar o Blog</a>
 </h3>
 
 # Indice
