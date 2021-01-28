@@ -2,12 +2,12 @@
     <img src="https://ik.imagekit.io/n07nbjzer4n/logo-marca-sm_Cob6lX38O.svg">
 </h1>
 
-<h1>
-    <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif">
+<h1 align="center">
+    <img src="https://ik.imagekit.io/n07nbjzer4n/nacaatinga-3_GFGHcg7xv.gif">
 </h1>
 
 #### View Fast
-![site](https://ik.imagekit.io/n07nbjzer4n/nacaatinga_WO28dmBsi.gif)
+![site](https://ik.imagekit.io/n07nbjzer4n/nacaatinga-3_GFGHcg7xv.gif)
 
 <h3 align="center">
     <a href="https://nacaatinga.com.br/">Acessar a demonstração</a>
