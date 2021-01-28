@@ -57,4 +57,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 
 ---
+<i>Ele disponibilizou a base de dados, vou Hackear... Nem Perca seu tempo eu já troquei todos os dados de acesso! hahaha</>
+
 Desenvolvido 💜 por Gabriel Santos
