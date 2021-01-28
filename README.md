@@ -55,7 +55,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
  
 * [Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser] (http://localhost/phpmyadmin)
  
-#### Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo *[Exemplo](https://ik.imagekit.io/n07nbjzer4n/php-myadmin_wIHbnjVYJ.png)
+* [Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo] - [Exemplo](https://ik.imagekit.io/n07nbjzer4n/php-myadmin_wIHbnjVYJ.png)
  
 
 
