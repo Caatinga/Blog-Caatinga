@@ -49,7 +49,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ git clone https://github.com/GabrielSantosBa/Site-NaCaatinga.git    
 ```
 
-## Como Instalar e adicionar o Projeto ao XAMPP
+### Como Instalar e adicionar o Projeto ao XAMPP
 
 * [Instalação e Configuração] (https://www.hostinger.com.br/tutoriais/como-usar-o-xampp/)
  
