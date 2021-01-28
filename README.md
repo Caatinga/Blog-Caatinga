@@ -48,16 +48,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     # Clonar o repositório
     $ git clone https://github.com/GabrielSantosBa/Site-NaCaatinga.git    
 ```
----
+
 ## Como Instalar e adicionar o Projeto ao XAMPP
 
 * [Instalação e Configuração] (https://www.hostinger.com.br/tutoriais/como-usar-o-xampp/)
  
 * [Em posse da Base de dados e o XAMPP devidamente iniciado basta digitar no seu browser] (http://localhost/phpmyadmin)
  
-#### Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo
- *[Exemplo](https://ik.imagekit.io/n07nbjzer4n/php-myadmin_wIHbnjVYJ.png)
+#### Após acessar o PhpMyAdmin Basta importar o BD, exemplo abaixo *[Exemplo](https://ik.imagekit.io/n07nbjzer4n/php-myadmin_wIHbnjVYJ.png)
+ 
 
 
-
+---
 Desenvolvido 💜 por Gabriel Santos
